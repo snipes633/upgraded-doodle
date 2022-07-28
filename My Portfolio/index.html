@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>ADE-WEB</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="CSS/grid.css">
+  <link rel="stylesheet" href="CSS/animate.css">
+  <link rel="stylesheet" href="CSS/queries.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="CSS/style.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="font/css/all.css">
+</head>
+
+<body>
+
+  <section class="light-section" id="title">
+
+    <!-- Nav Bar -->
+    <nav  class="light-section" id="navbar">
+      <ul class="navbar-logo">
+        <li>
+          <img class="logo" src="images/mylogo.png" alt="My Logo">
+          <a href="#">Portfolio</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#title">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Project</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Resume</a>
+        </li>
+      </ul>
+      <ul class="switch">
+        <!-- <label for="checkbox" class="toggler">
+          <input type="checkbox" id="checkbox">
+          <span class="ball inner-switch"></span>
+          <i class="fa-solid fa-sun sun"></i>
+          <i class="fa-solid fa-moon moon"></i>
+        </label> -->
+        <input type="checkbox" id="toggle" name="toggle" value="is_on">
+        <label for="toggle" class="toy-toggle">
+          <span class="border1"></span>
+          <span class="border2"></span>
+          <span class="border3"></span>
+          <span class="handle">
+            <span class="handle-off"></span>
+            <span class="handle-on"></span>
+          </span>
+          <i class="fa-solid fa-sun sun"></i>
+          <i class="fa-solid fa-moon moon"></i>
+        </label>
+      </ul>
+    </nav>
+
+
+    <div class="container-fluid">
+
+      <!-- Title -->
+      <div class="hero-text">
+        <h2 class="welcome">Hello, <span class="green-span">I'm</span></h2>
+        <h1 class="name"><span class="auto-type1">Adeniyi Adebisi</span></h1>
+        <h2 class="skill"><span class="auto-type2"></span></h2>
+        <p class="intro">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+          qui officia deserunt mollit anim id est laborum.
+        </p>
+        <button type="button" name="button" class="talk"><a href="mailto:snipesjnr0@gmail.com">Let's Talk</a></button>
+        <div class="hero-social">
+          <h3>Check Out My</h3>
+          <ul class="social-link">
+            <li class="icon linkedin">
+              <span class="tooltip">Linkedin</span>
+              <div id="hexagon">
+                <a href="https://www.linkedin.com/in/adebisi-adeniyi-0a0a73232/"><i class="fa-brands fa-linkedin-in fa-2x"></i></a>
+              </div>
+            </li>
+            <li = class="icon twitter">
+              <span class="tooltip">Twitter</span>
+              <div id="hexagon">
+                <a href="https://twitter.com/Snipes53955012"><i class="fa-brands fa-twitter fa-2x"></i></a>
+              </div>
+            </li>
+            <li class="icon website">
+              <span class="tooltip">Website</span>
+              <div id="hexagon">
+                <a href="https://snipes633.github.io/CV/"><i class="fa-solid fa-globe fa-2x"></i></a>
+              </div>
+            </li>
+            <li class="icon whatsapp">
+              <span class="tooltip">Whatsapp</span>
+              <div id="hexagon">
+                <a href="https://wa.link/4ql3uz"><i class="fa-brands fa-whatsapp fa-2x"></i></a>
+              </div>
+            </li>
+            <!-- <i class="fa-brands fa-whatsapp"></i>
+              <i class="fa-solid fa-globe"></i>
+              <i class="fa-brands fa-instagram"></i> -->
+          </ul>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <div class="hexagon">
+
+        </div>
+        <img src="images/img2.png" alt="Adebisi Photo" class="adebisi-img">
+      </div>
+    </div>
+  </section>
+
+
+  <section class="dark-section js--section-services" id="services">
+    <div class="container-fluid">
+      <h3>MY <span class="green-span">SERVICES</span></h3>
+      <h1 class="section-heading">What I Do</h1>
+      <div class="services-container">
+        <div class="service-box">
+          <div class="face face1 light-section">
+            <div class="content">
+                <lord-icon src="https://cdn.lordicon.com/ijznovhy.json" trigger="hover" colors="primary:#E6AF2E,secondary:#E6AF2E"></lord-icon>
+                <!-- <i class="fa-solid fa-house-circle-check fa-8x"></i> -->
+                <h3>3D Epoxy Floor Maker</h3>
+            </div>
+          </div>
+          <div class="face face2 dark-section">
+            <div class="content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-box">
+          <div class="face face1  light-section">
+            <div class="content">
+                <lord-icon src="https://cdn.lordicon.com/buqfvmsj.json" trigger="hover" colors="primary:#E6AF2E,secondary:#E6AF2E"></lord-icon>
+                <!-- <i class="fa-solid fa-code fa-8x"></i> -->
+                <h3>Web Designer</h3>
+            </div>
+          </div>
+          <div class="face face2 dark-section">
+            <div class="content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+
+         <div class="service-box">
+          <div class="face face1 light-section">
+            <div class="content">
+                <lord-icon src="https://cdn.lordicon.com/nobciafz.json" trigger="hover" colors="primary:#E6AF2E,secondary:#E6AF2E"></lord-icon>
+                <!-- <i class="fa-solid fa-laptop-code fa-8x"></i> -->
+                <h3>Web Developer</h3>
+            </div>
+          </div>
+          <div class="face face2  dark-section">
+            <div class="content">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="light-section" id="projects">
+    <div class="container-fluid">
+      <h1 class="section-heading">Recent <span class="green-span">Projects</span></h1>
+      <p class="project-text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      </p>
+      <!-- <div class="projects-box">
+        <img src="images/project1.jpg" alt="">
+        <img src="images/project4.jpg" alt="">
+        <img src="images/project5.jpg" alt="">
+        <img src="images/project2.jpg" alt="">
+        <img src="images/project6.jpg" alt="">
+        <img src="images/project3.jpg" alt="">
+      </div> -->
+      <div class="container">
+        <div class="slider">
+          <div class="box1">
+          </div>
+          <div class="box2">
+          </div>
+          <div class="box3">
+          </div>
+          <div class="box4">
+          </div>
+          <div class="box5">
+          </div>
+          <div class="box6">
+          </div>
+          <div class="box7">
+            <iframe src="https://ui.dev/amiresponsive?url=https://snipes633.github.io/CV/" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
+      <div id="test"></div>
+      <button type="button" name="button">Prev</button>
+      <button type="button" name="button">Next</button>
+    </div>
+  </section>
+
+
+  <section class="dark-section" id="testimonials">
+    <div class="container-fluid">
+      <h3><span class="green-span">TESTIMONIALS</span></h3>
+      <h1 class="section-heading">What Client Say</h1>
+      <button type="button" name="button">Prev</button>
+      <button type="button" name="button">Next</button>
+      <div class="testimonials-container">
+        <div class="testimonial-box light-section" data-tilt>
+          <span class="emoji">⭐⭐⭐⭐⭐</span>
+          <blockquote>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+            <cite>
+              <img src="images/tes1.jpg" alt="Customer 1 Photo">Adeniyi Adeyosola<br>Lorem ipsum dolor sit amet consec.
+            </cite>
+          </blockquote>
+        </div>
+        <div class="testimonial-box light-section" data-tilt>
+           <span class="emoji">⭐⭐⭐⭐⭐</span> <!-- &#9733;  -->
+          <blockquote>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+            <cite>
+              <img src="images/tes2.jpg" alt="Customer 2 Photo">Adeniyi Adeyosola<br>Lorem ipsum dolor sit amet consec.
+            </cite>
+          </blockquote>
+        </div>
+        <div class="testimonial-box  light-section" data-tilt>
+          <span class="emoji">⭐⭐⭐⭐⭐</span>
+          <blockquote>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+            <cite>
+              <img src="images/tes3.jpg" alt="Customer 3 Photo">Adeniyi Adeyosola<br>Lorem ipsum dolor sit amet consec.
+            </cite>
+          </blockquote>
+        </div>
+        <!-- <div class="testimonial-box light-section" data-tilt>
+           <span class="emoji">⭐⭐⭐⭐⭐</span> &#9733;
+          <blockquote>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+            <cite>
+              <img src="images/tes2.jpg" alt="Customer 2 Photo">Adeniyi Adeyosola<br>Lorem ipsum dolor sit amet consec.
+            </cite>
+          </blockquote>
+        </div>
+        <div class="testimonial-box  light-section" data-tilt>
+          <span class="emoji">⭐⭐⭐⭐⭐</span>
+          <blockquote>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+            <cite>
+              <img src="images/tes3.jpg" alt="Customer 3 Photo">Adeniyi Adeyosola<br>Lorem ipsum dolor sit amet consec.
+            </cite>
+          </blockquote>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Lordicon Scripts -->
+  <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+  <!-- Autotext Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <!-- Auto Rotate Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <!-- Darkmode Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js" charset="utf-8"></script>
+  <!-- JS Scripts -->
+  <script src="JS/jquery.waypoints.min.js"></script>
+  <script src="JS/vanilla-tilt.js" charset="utf-8"></script>
+  <script src="JS/script.js" charset="utf-8"></script>
+</body>
+
+</html>
